@@ -1,4 +1,12 @@
-import { Box, Heading, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  FormControl,
+  FormLabel,
+  Input,
+  Heading,
+  VStack,
+  Card,
+} from "@chakra-ui/react";
 import { BRANDLOGO } from "./signIn-logo";
 
 export function Login() {
@@ -15,6 +23,32 @@ export function Login() {
           Sign in to Zing
         </Heading>
       </VStack>
+      <Card bg="#FFFFF0 " variant="outline" borderColor="#4299E1 " maxW="380px">
+        <FormControl>
+          <FormLabel size="sm">UserName or Email address </FormLabel>
+          <Input
+            type="text"
+            bg="Orange 50
+"
+            borderColor="#E6FFFA
+"
+            size="sm"
+            borderRadius="10px"
+          />
+        </FormControl>
+        <FormControl>
+          <FormLabel size="sm">UserName or Email address </FormLabel>
+          <Input
+            type="text"
+            bg="Orange 50
+"
+            borderColor="#E6FFFA
+"
+            size="sm"
+            borderRadius="10px"
+          />
+        </FormControl>
+      </Card>
     </Box>
   );
 }
