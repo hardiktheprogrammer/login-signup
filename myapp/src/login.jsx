@@ -41,7 +41,16 @@ export function Login() {
         <FormControl>
           <HStack>
             <FormLabel size="sm">UserName or Email address </FormLabel>
-            <Button href="#"> Forget Password?</Button>
+            <Button
+              href="#"
+              variant="link"
+              size="xs"
+              color="#3182CE
+"
+            >
+              {" "}
+              Forget Password?
+            </Button>
           </HStack>
           <Input
             type="text"
