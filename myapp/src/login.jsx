@@ -42,11 +42,12 @@ export function Login() {
           <HStack>
             <FormLabel size="sm">UserName or Email address </FormLabel>
             <Button
+              as="a"
               href="#"
               variant="link"
               size="xs"
-              color="#3182CE
-"
+              color="#3182CE"
+              fontWeight="700"
             >
               {" "}
               Forget Password?
@@ -62,6 +63,9 @@ export function Login() {
             borderRadius="10px"
           />
         </FormControl>
+        <Button bg="#2EA033  " color="white" size="sm" _hover="">
+          Sign In
+        </Button>
       </Card>
     </Box>
   );
