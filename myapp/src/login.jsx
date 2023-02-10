@@ -6,6 +6,8 @@ import {
   Heading,
   VStack,
   Card,
+  HStack,
+  Button,
 } from "@chakra-ui/react";
 import { BRANDLOGO } from "./signIn-logo";
 
@@ -37,7 +39,10 @@ export function Login() {
           />
         </FormControl>
         <FormControl>
-          <FormLabel size="sm">UserName or Email address </FormLabel>
+          <HStack>
+            <FormLabel size="sm">UserName or Email address </FormLabel>
+            <Button href="#"> Forget Password?</Button>
+          </HStack>
           <Input
             type="text"
             bg="Orange 50
