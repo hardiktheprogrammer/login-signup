@@ -48,7 +48,7 @@ export function Login() {
                       type="text"
                       bg="Orange 50
 "
-                      borderColor="#E6FFFA
+                      borderColor="#b2a3bf
 "
                       size="sm"
                       borderRadius="10px"
@@ -72,11 +72,11 @@ export function Login() {
                     </HStack>
                     <Input
                       type="text"
-                      bg="Orange 50
+                      bgColor="#FAFCFE
 "
                       borderColor="#E6FFFA
 "
-                      size="sm"
+                    size="sm"
                       borderRadius="10px"
                     />
                   </FormControl>
@@ -107,7 +107,26 @@ export function Login() {
           </Card>
         </Stack>
       </Center>
-      <HStack></HStack>
+      <Center mt="10">
+        <HStack>
+          <Link color="#5134E2 " fontSize={"sm"} href="#">
+            {" "}
+            Terms Of Use
+          </Link>
+          <Link color="#5134E2" fontSize={"sm"} href="#">
+            {" "}
+            Privacy Policy
+          </Link>
+          <Link color="#5134E2" fontSize={"sm"} href="#">
+            {" "}
+            Contact Zing{" "}
+          </Link>
+
+          <Text mt=" 8" padding="" fontSize={"smaller"}>
+            © 2022-2023 Zing.com, Inc
+          </Text>
+        </HStack>
+      </Center>
     </Box>
   );
 }
